@@ -46,7 +46,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/zingzongy/comptia_network_learning_app.git
     cd <repository-name>
     ```
 
@@ -80,7 +80,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     * `components/`: Reusable React components (e.g., `Sidebar.tsx`, `ContentArea.tsx`).
     * `App.tsx`: Main application component.
     * `main.tsx`: React application entry point.
-    * `styles.css` (or `index.css`): Main CSS file for Tailwind CSS directives and global styles.
+    * `index.css`: Main CSS file for Tailwind CSS directives and global styles.
 * `src-tauri/`: Contains the Rust backend code and Tauri configuration.
     * `tauri.conf.json`: Main Tauri configuration file.
     * `Cargo.toml`: Rust project manifest.
